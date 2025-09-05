@@ -23,10 +23,18 @@ Un marco de trabajo integral en Python para extraer datos de Reels de Facebook u
 
 1. **Clona o descarga** este proyecto a tu máquina local
 
-2. **Ejecuta el lanzador por lotes** (Windows):
+2. **Ejecuta el lanzador** según tu sistema operativo:
+   
+   **Windows:**
    ```bash
    run_scraper.bat
    ```
+   
+   **macOS/Linux:**
+   ```bash
+   ./run_scraper.sh
+   ```
+   
    El lanzador automáticamente:
    - Crea un entorno virtual
    - Instala las dependencias requeridas
